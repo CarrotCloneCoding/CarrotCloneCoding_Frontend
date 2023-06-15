@@ -1,0 +1,15 @@
+.section4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-section4 {
+  flex-direction: column;
+}
+
+.section4_picture {
+  width: 526px;
+  height: 735px;
+}
