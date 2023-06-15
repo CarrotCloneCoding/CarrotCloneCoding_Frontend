@@ -1,0 +1,81 @@
+body {
+  @font-face {
+    font-family: "Pretendard-Regular";
+    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+      format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+.header {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.header-container1 {
+  width: max-content;
+  height: 64px;
+
+  background-color: white;
+
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.25rem;
+}
+
+.header-container2 {
+  height: 64px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.carrot-logo {
+  width: 100px;
+  height: 28px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.used-transaction {
+  color: #ff6f0f;
+}
+
+.search {
+  position: relative;
+  width: 300px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 14px;
+  background-color: #f2f3f6;
+  border: none;
+}
+
+.chat-button {
+  width: 97.6px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
