@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-align: center;
+}
