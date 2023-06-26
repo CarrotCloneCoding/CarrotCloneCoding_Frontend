@@ -8,9 +8,10 @@ export default function Card() {
       <Link to="articles/598273895">
         <img src="./article1.jpg" className="article1-image"></img>
       </Link>
-      <p>제습기 팝니다</p>
-      <h2>30,000원</h2>
+      <div className="card-title">제습기 팝니다</div>
+      <div className="card-price">30,000원</div>
       <div className="card-region-name">서울 중랑구 상봉제2동</div>
+      <div className="card-counts">관심 19 ∙ 채팅 15</div>
     </article>
   );
 }
