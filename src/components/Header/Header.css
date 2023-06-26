@@ -1,11 +1,6 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-  @font-face {
-    font-family: "Pretendard-Regular";
-    src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-      format("woff");
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 
 .header {
@@ -51,6 +46,10 @@ body {
 a {
   text-decoration: none;
   color: black;
+}
+
+.font {
+  font-weight: 500;
 }
 
 .used-transaction {

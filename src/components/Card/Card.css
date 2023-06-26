@@ -1,6 +1,8 @@
 .card-top {
   display: flex;
   flex-direction: column;
+  margin-right: 100px;
+  margin-bottom: 56px;
 }
 
 .article1-image {

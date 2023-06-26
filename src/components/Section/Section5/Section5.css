@@ -6,8 +6,14 @@
   flex-wrap: wrap;
 }
 
-h1 {
+.section5-title {
+  margin-bottom: 8rem;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
   text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .card-region-name {
@@ -24,5 +30,14 @@ h1 {
   width: 100%;
   height: 750px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.popular {
+  display: flex;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
