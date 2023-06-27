@@ -2,7 +2,7 @@ import "./Job1.css";
 import React from 'react';
 
 
-export default function Job1() {
+export default function Realty2() {
     return (
       <div className="job1">
         <div className="text-section1">

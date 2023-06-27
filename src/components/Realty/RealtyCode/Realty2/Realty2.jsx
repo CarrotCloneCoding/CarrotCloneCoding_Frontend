@@ -1,4 +1,4 @@
-import "./Job2.css";
+import "./Realty2.css";
 import React from 'react';
 import Item from "./ItemJobs";
 
@@ -9,7 +9,7 @@ export default function Realty2() {
       <div className="job2">
         <div className="text-section2">
           <h2>
-            인기 당근 알바<br />
+          인기 부동산 직거래 게시글<br />
           </h2>
           <div className="item-wrap">
            {[1,2,3,4,5,6, 7, 8, 9, 10].map((key)=>(
@@ -18,16 +18,15 @@ export default function Realty2() {
           </div>
           <div className="bar1">
             <div className="bar1box1">
-            <img src="/carrotbar1.png" className="barimg1"></img>
+            <img src="/reabar1img.png" className="barimg1"></img>
             <div className="bar1text">
-            당근알바 이용방법이 궁금하다면
+            복비 없이 투명한 부동산 직거래
             <br></br>
-            지금 바로 알아보세요!           
+            당근마켓 내 근처 탭에서 바로 찾아보세요!        
             </div>
-           
             </div>
             <div className="bar1button">
-              이용방법 알아보기
+             어플 다운로드 하기
             </div>
           </div>
           <div className="item-wrap">
@@ -35,20 +34,6 @@ export default function Realty2() {
               <Item key={key} /> 
             ))}
         </div>
-        <div className="bar2">
-            <div className="bar1box1">
-            <img src="/bar2img.png" className="barimg1"></img>
-            <div className="bar1text">
-            당근알바 이용방법이 궁금하다면
-            <br></br>
-            지금 바로 알아보세요!           
-            </div>
-           
-            </div>
-            <div className="bar2button">
-              어플 다운로드 하기
-            </div>
-          </div>
         </div>
     
       </div>
