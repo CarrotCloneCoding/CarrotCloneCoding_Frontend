@@ -4,6 +4,8 @@ li {
 
 ul {
   list-style: none;
+  padding-left: 0px;
+  padding-right: 40px;
 }
 
 .popular-search-title {
@@ -31,8 +33,8 @@ ul {
 .footer-root2 {
   color: #868e96;
   font-size: 13px;
-  display: flex;
-  justify-content: center;
+  margin-left: 360px;
+
 }
 
 .apple-logo {
@@ -85,21 +87,27 @@ ul {
 }
 
 .many-logo {
-  display: flex;
-  flex-direction: row;
+  margin-left: 500px;
 }
 
 .root2-text {
   display: flex;
   flex-direction: column;
+  float: left;
 }
 
 .root2-list {
   display: flex;
   margin-left: 0px;
+  clear: left;
 }
 
 .small-logo {
   width: 25px;
   height: 24px;
+  margin-left: 13px;
+}
+.tee{
+  margin-left: 13px;
+  top: 0px;
 }

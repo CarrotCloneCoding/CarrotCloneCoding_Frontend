@@ -50,11 +50,11 @@ export default function Footer() {
 
           <div className="button-container">
             <button className="footer-button">
-              <img src="/apple-logo.png" className="apple-logo"></img>
+              <img src="/apple.png" className="apple-logo"></img>
               App store
             </button>
             <button className="footer-button">
-              <img src="/googleplay-logo.png" className="googleplay-logo"></img>
+              <img src="/gp.png" className="googleplay-logo"></img>
               Google play
             </button>
           </div>
@@ -79,6 +79,27 @@ export default function Footer() {
             <b>전화</b> 1544-9796 | <b>고객문의</b> cs@daangnservice.com
           </div>
           <br />
+          </div>
+          <div className="many-logo">
+          <a href="">
+            <img src="/facebook.png" className="small-logo"></img>
+          </a>
+          <a href="">
+            <img src="/inssta.png" className="small-logo"></img>
+          </a>
+          <a href="">
+            <img src="/youtube.png" className="small-logo"></img>
+          </a>
+          <a href="">
+            <img src="/blog.png" className="small-logo"></img>
+          </a>
+          <a href="">
+            <img src="/internet.png" className="small-logo"></img>
+          </a>
+          <a className="tee">
+            한국
+          </a>
+        </div>
           <div className="root2-list">
             <li>
               <ul>제휴 문의</ul>
@@ -87,9 +108,7 @@ export default function Footer() {
               <ul>IR 문의</ul>
             </li>
           </div>
-        </div>
-
-        <div className="">
+        <div className="list">
           <li>
             <ul>이용약관</ul>
             <ul>개인정보처리방침</ul>
@@ -97,23 +116,11 @@ export default function Footer() {
             <ul>이용자보호 비전과 계획</ul>
             <ul>청소년보호정책</ul>
           </li>
-          <li>이용약관</li>
-          <li>개인정보처리방침</li>
-          <li>위치기반서비스 이용약관</li>
-          <li>이용자보호 비전과 계획</li>
-          <li>청소년보호정책</li>
-        </div>
-
-        <div className="many-logo">
-          <a href="">
-            <img src="/facebook-logo.png" className="small-logo"></img>
-          </a>
-          <a href="">
-            <img src="/insta-logo.png" className="small-logo"></img>
-          </a>
-          <a href="">
-            <img src="/youtube-logo.png" className="small-logo"></img>
-          </a>
+          <br />
+          <br />
+          <br />
+          <br />
+          
         </div>
       </div>
     </div>

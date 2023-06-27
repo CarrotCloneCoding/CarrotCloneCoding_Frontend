@@ -14,8 +14,8 @@ export default function Section5() {
         <Card />
         <Card />
         <Card />
-      </div>
-      <a herf="">인기매물 더보기</a>
+      </div >
+      <a herf="" className="ingi">인기매물 더보기</a>
     </div>
   );
 }
