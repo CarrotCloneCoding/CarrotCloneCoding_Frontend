@@ -1,0 +1,30 @@
+.realty1 {
+    background-color: #D2EDFA;
+    width: 100%;
+    height: 315px;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .realty1box{
+    height: 282px;
+    width: 400px;
+    margin-left: 0px;
+    padding-top: 35px;
+    margin-right: 90px;
+  }
+
+  .realty1-section1{
+    color: black;
+    display: flex;
+  flex-direction: column;
+    padding-right: 150px;
+    padding-left: 250px;
+    padding-top: 30px;
+  }
+ 
+
+  .h1{
+    display:inline
+  }

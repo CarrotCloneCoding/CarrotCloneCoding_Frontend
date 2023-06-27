@@ -4,7 +4,7 @@ import Card from "./components/Card/Card";
 import NearbyStore from "./components/NearbyStore/NearbyStore.jsx";
 import Jobs from "./components/Jobs/Jobs.jsx";
 import Realty from "./components/Realty/Realtys.jsx"
-import Car from "./components/Car/Car";
+import Car from "./components/Car/Cars";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
