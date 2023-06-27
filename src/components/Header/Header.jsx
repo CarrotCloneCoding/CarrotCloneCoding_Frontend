@@ -12,7 +12,7 @@ export default function Header() {
     <div className="header">
       <div className="header-container1">
         <Link to="/">
-          <img src="./carrot-logo.png" className="carrot-logo"></img>
+          <img src="/carrot-logo.png" className="carrot-logo"></img>
         </Link>
         <Link to="/">
           <p className="font">중고거래</p>
