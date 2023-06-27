@@ -12,11 +12,12 @@ export default function Realty1() {
         </h1>
          <p>
          딜러 없이 믿고 살 수 있는 중고차,
+당근에서 직거래해보세요.
           <br />
-          당근에서 직거래해보세요.
+            편하게 직거래해보세요.
          </p>
         </div>
-        <img src="/carhe.png" className="realty1box"/>
+        <img src="/realty1.png" className="realty1box"/>
       </div>
     );
   }

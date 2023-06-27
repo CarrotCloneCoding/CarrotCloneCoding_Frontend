@@ -1,0 +1,38 @@
+.midt{
+    margin-left: 190px;
+}
+
+.button-wrap {
+  display: flex; /* 요소들을 가로로 정렬하기 위해 flexbox를 사용합니다. */
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.button-wrap button {
+  margin-right: 20px; /* 버튼들 사이의 간격을 설정합니다. */
+  padding: 10px 20px;
+  background-color: #fff;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.und{
+    margin-top: 100px;
+    font-size: 32px;
+}
+.bar2{
+    background-color: #F7B46824;
+    width: 711px;
+    height: 64px;
+    padding: 28px 24px 28px 33px;
+    margin: 44px 0px 40px;
+}
+.bar1button{
+  font-size: 18px;
+  font-weight: bold;
+}
+.sma{
+  font-size: 16px;
+  font-weight: lighter;
+}

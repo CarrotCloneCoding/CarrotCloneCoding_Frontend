@@ -1,10 +1,3 @@
-.footer {
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 li {
   display: flex;
 }
@@ -13,6 +6,100 @@ ul {
   list-style: none;
 }
 
-a {
+.popular-search-title {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.popular-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-root1 {
+  display: flex;
+  justify-content: center;
+
+  line-height: 3.2;
+}
+
+.footer-root2 {
+  color: #868e96;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+
+.apple-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.googleplay-logo {
+  width: 16px;
+  height: 19px;
+}
+
+.footer-button {
+  width: 147px;
+  height: 44px;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer-hr {
+  border: 0;
+  height: 1px;
+  background: rgb(241, 237, 237);
+  width: 750px;
+}
+
+.root1-list2 {
+  top: 0px;
+}
+
+.root1-download {
+  margin-left: 30px;
+}
+
+.button-container {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.download-text {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.many-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+.root2-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.root2-list {
+  display: flex;
+  margin-left: 0px;
+}
+
+.small-logo {
+  width: 25px;
+  height: 24px;
 }
