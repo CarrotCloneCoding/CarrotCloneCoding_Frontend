@@ -46,20 +46,21 @@
 
   .bar1{
     background-color: #009CEB1A;
-    width: 711px;
+    width: 753px;
     height: 64px;
     padding: 28px 24px 28px 33px;
     margin: 44px 0px 40px;
   }
   .barimg1{
-    height: 64px;
-    width: 54px;
+    height: 57px;
+    width: 70px;
     float: left;
     text-align: left;
+    margin-top: 10px;
   }
   .bar1text{
     height: 52px;
-    width: 301.06px;
+    width: 351.06px;
     font-weight:bolder;
     margin-left: 25px;
     font-size: 20px;
@@ -82,7 +83,10 @@
     border-radius: 5px;
     margin-top: 10px;
   }
-  
+  .bar1box1{
+
+  }
+
   .bar2button{
     background-color: #FF6616;
     height: 24px;
