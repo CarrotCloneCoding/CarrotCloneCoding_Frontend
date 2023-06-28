@@ -34,7 +34,6 @@ ul {
   color: #868e96;
   font-size: 13px;
   margin-left: 360px;
-
 }
 
 .apple-logo {
@@ -63,7 +62,7 @@ ul {
   border: 0;
   height: 1px;
   background: rgb(241, 237, 237);
-  width: 750px;
+  width: 800px;
 }
 
 .root1-list2 {
@@ -107,7 +106,7 @@ ul {
   height: 24px;
   margin-left: 13px;
 }
-.tee{
+.tee {
   margin-left: 13px;
   top: 0px;
 }

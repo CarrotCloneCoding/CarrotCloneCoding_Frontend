@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 
 .text-section4 {
@@ -12,4 +13,5 @@
 .section4_picture {
   width: 526px;
   height: 735px;
+  padding: 0px 100px;
 }

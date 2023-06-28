@@ -1,16 +1,19 @@
-import "./NearbyStore2.css";
-export default function item() {
+import "./ItemJobs.css";
+import { getDatabase, ref, child, get } from "firebase/database";
+import React, { useEffect } from "react";
+
+export default function Item({ title, content }) {
   return (
     <div className="itembox">
-      <img src="/carrotitem.png" className="item"/>
-      야호
-      <div className="graytext">
-        니가 뭘알아
-      </div>
-      <h7 className="money">
-        시급 : 10000원
-      </h7>
+      <a href="/">
+        <img src="/carrotitem.png" className="item-img" />
+        <div className="textbox">
+          <div className="item-title">
+            <h3>{title}</h3>
+          </div>
+          <h6 className="item-content">{content}</h6>
+        </div>
+      </a>
     </div>
-    
   );
 }

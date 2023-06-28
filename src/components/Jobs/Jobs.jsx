@@ -2,6 +2,7 @@ import "./Jobs.css";
 import Header from "../Header/Header";
 import Job1 from "./JobCode/Job1/Job1";
 import Job2 from "./JobCode/Job2/Job2";
+import Footer from "../Footer/Footer";
 
 export default function Jobs() {
   return (
@@ -9,6 +10,7 @@ export default function Jobs() {
       <Header />
       <Job1 />
       <Job2 />
+      <Footer />
     </div>
   );
 }

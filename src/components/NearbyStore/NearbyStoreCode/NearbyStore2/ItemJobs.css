@@ -1,0 +1,20 @@
+.item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-img {
+  width: 108px;
+  height: 108px;
+}
+
+.itembox {
+  display: flex;
+  flex-direction: row;
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+}

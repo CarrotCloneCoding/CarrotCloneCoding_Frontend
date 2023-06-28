@@ -33,7 +33,10 @@ export default function Header() {
 
       <div className="header-container2">
         <div className="search">
-          <input type="text" placeholder="물품이나 동네를 검색해보세요"></input>
+          <input
+            type="text"
+            placeholder="물품이나 동네를 검색해보세요."
+          ></input>
         </div>
         <button className="chat-button">채팅하기</button>
       </div>

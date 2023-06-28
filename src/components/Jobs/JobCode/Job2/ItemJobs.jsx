@@ -2,15 +2,14 @@ import "./Job2.css";
 export default function item() {
   return (
     <div className="itembox">
-      <img src="/carrotitem.png" className="item"/>
-      야호
-      <div className="graytext">
-        니가 뭘알아
-      </div>
-      <h7 className="money">
-        시급 : 10000원
-      </h7>
+      <a href="">
+        <img src="/dog.jpg" className="item-img" />
+        <div className="textbox">
+          애견샵 아르바이트
+          <div className="graytext">도그마루 대구점</div>
+          <div className="money">시급 10,000</div>
+        </div>
+      </a>
     </div>
-    
   );
 }

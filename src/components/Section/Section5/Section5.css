@@ -1,19 +1,16 @@
 .section5 {
   background-color: #f8f9fa;
   width: 100%;
-  height: 1200px;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 .section5-title {
-  margin-bottom: 8rem;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
+  padding: 40px 0;
+  font-size: 38px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .card-region-name {
@@ -28,8 +25,23 @@
 
 .cards-wrap {
   width: 100%;
-  height: 750px;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cards-link {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-container {
+  width: 82%;
+  display: flex;
+  gap: 50px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -42,8 +54,18 @@
   justify-content: center;
 }
 
-.ingi{
-  margin-left: 650px;
+.ingi {
   font-weight: bold;
   text-decoration: underline;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
+}
+
+.hr {
+  border: 0;
+  height: 1px;
+  background: rgb(241, 237, 237);
 }

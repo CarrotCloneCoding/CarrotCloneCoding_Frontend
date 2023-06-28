@@ -8,6 +8,7 @@ export default function Footer() {
 
   return (
     <div className="footer">
+      <hr className="job-hr" />
       <div className="footer-root1">
         <ul className="root1-list1">
           <li>
@@ -79,8 +80,8 @@ export default function Footer() {
             <b>전화</b> 1544-9796 | <b>고객문의</b> cs@daangnservice.com
           </div>
           <br />
-          </div>
-          <div className="many-logo">
+        </div>
+        <div className="many-logo">
           <a href="">
             <img src="/facebook.png" className="small-logo"></img>
           </a>
@@ -96,18 +97,16 @@ export default function Footer() {
           <a href="">
             <img src="/internet.png" className="small-logo"></img>
           </a>
-          <a className="tee">
-            한국
-          </a>
+          <a className="tee">한국</a>
         </div>
-          <div className="root2-list">
-            <li>
-              <ul>제휴 문의</ul>
-              <ul>광고 문의</ul>
-              <ul>PR 문의</ul>
-              <ul>IR 문의</ul>
-            </li>
-          </div>
+        <div className="root2-list">
+          <li>
+            <ul>제휴 문의</ul>
+            <ul>광고 문의</ul>
+            <ul>PR 문의</ul>
+            <ul>IR 문의</ul>
+          </li>
+        </div>
         <div className="list">
           <li>
             <ul>이용약관</ul>
@@ -120,7 +119,6 @@ export default function Footer() {
           <br />
           <br />
           <br />
-          
         </div>
       </div>
     </div>
