@@ -29,7 +29,7 @@ export default function NearbyStore2() {
           <Button />
         </div>
 
-        <div className="item-container">
+        <div className="item-containerNB">
           {list.map((item, index) => {
             return <Item {...item} key={index} />;
           })}

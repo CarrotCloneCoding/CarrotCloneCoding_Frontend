@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Button.css";
 
 const ButtonComponent = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState(0); // 전체 버튼을 처음에 클릭된 상태로 설정
   const buttons = [
     "전체",
     "식당",
