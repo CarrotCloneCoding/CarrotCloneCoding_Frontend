@@ -9,6 +9,7 @@ import Realty from "./components/Realty/Realtys.jsx";
 import Car from "./components/Car/Cars";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Write from "./components/Write/Write";
+import Post from "./components/Post/JobPost/Post";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAR80rkxccA7vPyWs8D5IJDFha9HP52Ki4",
@@ -32,6 +33,7 @@ function App() {
         <Route path="/kr/car/" element={<Car />}></Route>
         <Route path="articles/598273895" element={<Card />}></Route>
         <Route path="/write" element={<Write />} />
+        <Route path="/JobPost" element={<Post></Post>} />
       </Routes>
     </BrowserRouter>
   );

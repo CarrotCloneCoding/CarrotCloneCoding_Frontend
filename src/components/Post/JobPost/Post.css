@@ -1,0 +1,68 @@
+.Post {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.jobpost-img {
+  top: 64px;
+
+  margin-top: 20px;
+}
+
+.dog-img {
+  width: 768px;
+  height: 468px;
+  border-radius: 16px;
+  top: 64px;
+}
+
+.user-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.user {
+  display: flex;
+  position: relative;
+  margin-top: 30px;
+  width: 768px;
+  height: 110px;
+}
+
+.postname {
+  font-weight: 700;
+  width: 100px;
+  font-size: 1.125rem;
+}
+
+.user-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+}
+
+.temperature {
+  color: #009ceb;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: 540px;
+}
+
+.posthr {
+  border: 0;
+  height: 1px;
+  background: rgb(241, 237, 237);
+  width: 800px;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.post-subtitle {
+  color: var;
+}

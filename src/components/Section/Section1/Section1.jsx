@@ -15,9 +15,6 @@ export default function Section1() {
           <br />
           가깝고 따뜻한 당신의 근처를 만들어요.
         </p>
-        <button onClick={() => navigate("/write")} className="write-button">
-          글쓰기
-        </button>
       </div>
       <img src="./Section1.png" className="section1_picture"></img>
     </div>

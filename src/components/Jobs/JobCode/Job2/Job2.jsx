@@ -1,6 +1,13 @@
 import "./Job2.css";
 import React from "react";
 import Item from "./ItemJobs";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useNavigaion,
+} from "react-router-dom";
 
 export default function Realty2() {
   return (
@@ -11,11 +18,13 @@ export default function Realty2() {
             인기 당근 알바
             <br />
           </h2>
-          <div className="item-wrap">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((key) => (
-              <Item key={key} />
-            ))}
-          </div>
+          <Link to="/JobPost">
+            <div className="item-wrap">
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((key) => (
+                <Item key={key} />
+              ))}
+            </div>
+          </Link>
           <div className="bar1">
             <div className="bar1box1">
               <img src="/carrotbar1.png" className="barimg1"></img>

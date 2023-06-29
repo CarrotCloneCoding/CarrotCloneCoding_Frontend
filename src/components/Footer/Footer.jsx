@@ -1,5 +1,11 @@
 import "./Footer.css";
-
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useNavigaion,
+} from "react-router-dom";
 export default function Footer() {
   const text1 = "대표";
   const text2 = "강민제, 백서진 | ";
@@ -12,19 +18,19 @@ export default function Footer() {
       <div className="footer-root1">
         <ul className="root1-list1">
           <li>
-            <a href="">중고거래</a>
+            <Link to="/">중고거래</Link>
           </li>
           <li>
-            <a href="">동네가게</a>
+            <Link to="/kr/nearby-stores/">동네가게</Link>
           </li>
           <li>
-            <a href="">당근알바</a>
+            <Link to="/kr/jobs/">당근알바</Link>
           </li>
           <li>
-            <a href="">부동산 직거래</a>
+            <Link to="/kr/realty/">부동산 직거래</Link>
           </li>
           <li>
-            <a href="">중고차 직거래</a>
+            <Link to="/kr/car">중고차 직거래</Link>
           </li>
         </ul>
         <ul className="root1-list2">

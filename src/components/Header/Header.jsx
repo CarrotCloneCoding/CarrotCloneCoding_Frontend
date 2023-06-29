@@ -6,8 +6,10 @@ import {
   Link,
   useNavigaion,
 } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <div className="header">
       <div className="header-container1">
@@ -38,7 +40,9 @@ export default function Header() {
             placeholder="물품이나 동네를 검색해보세요."
           ></input>
         </div>
-        <button className="chat-button">채팅하기</button>
+        <button onClick={() => navigate("/write")} className="write-button">
+          가게 등록
+        </button>
       </div>
     </div>
   );

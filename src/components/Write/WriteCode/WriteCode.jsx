@@ -19,18 +19,18 @@ export default function WriteCode() {
     };
 
     update(ref(db), updates);
-    navigate("/");
+    navigate("/kr/nearby-stores/");
   };
 
   return (
     <div className="WriteCode">
       <div className="write-title">
-        <h1>글쓰기</h1>
+        <h1>가게 등록하기</h1>
       </div>
       <div className="title">
         <input
           className="title-input"
-          placeholder="제목을 입력하세요."
+          placeholder="가게 이름을 입력하세요."
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />

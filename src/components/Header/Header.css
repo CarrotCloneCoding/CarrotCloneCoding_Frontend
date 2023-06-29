@@ -71,11 +71,14 @@ input {
   border: none;
 }
 
-.chat-button {
-  width: 97.6px;
-  height: 40px;
-  background-color: white;
-  border: 1px solid gray;
+.write-button {
   border-radius: 6px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Noto Sans KR", sans-serif;
   color: black;
+  font-weight: 500;
 }
