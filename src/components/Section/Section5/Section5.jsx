@@ -1,5 +1,12 @@
 import Card from "../../Card/Card";
 import "./Section5.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  useNavigaion,
+} from "react-router-dom";
 
 export default function Section5() {
   return (
@@ -13,9 +20,7 @@ export default function Section5() {
         </div>
       </div>
       <div className="cards-link">
-        <a herf="" className="ingi">
-          인기매물 더보기
-        </a>
+        <Link to="/">인기매물 더보기</Link>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function Card() {
   return (
     <article className="card-top">
-      <Link to="articles/598273895">
+      <Link to="/">
         <img src="./article1.jpg" className="article1-image"></img>
       </Link>
       <div className="card-title">제습기 팝니다</div>
